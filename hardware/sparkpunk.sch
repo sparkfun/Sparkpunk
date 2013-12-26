@@ -25119,6 +25119,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <technology name="">
 <attribute name="DIST" value="digikey" constant="no"/>
 <attribute name="DIST_ID" value=" P2A5103-ND" constant="no"/>
+<attribute name="PROD_ID" value="RES-11897" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25135,6 +25136,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <technology name="">
 <attribute name="DIST" value="digikey" constant="no"/>
 <attribute name="DIST_ID" value=" P2A5103-ND" constant="no"/>
+<attribute name="PROD_ID" value="RES-11897" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -26910,8 +26912,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIST" value="digikey" constant="no"/>
-<attribute name="DIST_ID" value="296-2033-5-ND" constant="no"/>
+<attribute name="PROD_ID" value="IC-11896" constant="no"/>
 <attribute name="VALUE" value="CD4013B"/>
 </technology>
 </technologies>
@@ -26931,8 +26932,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </classes>
 <parts>
 <part name="IC1" library="SparkFun-AnalogIC" deviceset="556" device="KIT" value="7556">
-<attribute name="DIST" value="digikey"/>
-<attribute name="DIST_ID" value="ICM7556IPDZ-ND"/>
+<attribute name="PROD_ID" value="IC-11898"/>
 </part>
 <part name="RV3" library="SparkFun-Electromechanical" deviceset="POT" device="ALPS-KIT" value="10k">
 <attribute name="PROD_ID" value="RES-09177"/>
@@ -26963,19 +26963,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="PROD_ID" value="RES-09435"/>
 </part>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="EZ" value="100k">
-<attribute name="PROD_ID" value="RES-09498"/>
+<attribute name="PROD_ID" value="RES-10686"/>
 </part>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="EZ" value="100k">
-<attribute name="PROD_ID" value="RES-09498"/>
+<attribute name="PROD_ID" value="RES-10686"/>
 </part>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="EZ" value="100k">
-<attribute name="PROD_ID" value="RES-09498"/>
+<attribute name="PROD_ID" value="RES-10686"/>
 </part>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="EZ" value="100k">
-<attribute name="PROD_ID" value="RES-09498"/>
+<attribute name="PROD_ID" value="RES-10686"/>
 </part>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="EZ" value="100k">
-<attribute name="PROD_ID" value="RES-09498"/>
+<attribute name="PROD_ID" value="RES-10686"/>
 </part>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="EZ" value="10k">
 <attribute name="PROD_ID" value="RES-09435"/>
@@ -27178,8 +27178,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="71.12" y="182.88">
-<attribute name="DIST" x="71.12" y="182.88" size="1.778" layer="96" display="off"/>
-<attribute name="DIST_ID" x="71.12" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="PROD_ID" x="71.12" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="RV3" gate="G$1" x="114.3" y="182.88" rot="MR0">
 <attribute name="PROD_ID" x="114.3" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -27325,7 +27324,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="C2" gate="G$1" x="22.86" y="144.78" rot="R180">
 <attribute name="PROD_ID" x="22.86" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="IC2" gate="A" x="50.8" y="66.04"/>
+<instance part="IC2" gate="A" x="50.8" y="66.04">
+<attribute name="PROD_ID" x="50.8" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC2" gate="B" x="50.8" y="30.48"/>
 <instance part="IC2" gate="P" x="93.98" y="63.5"/>
 <instance part="LOGO2" gate="G$1" x="274.32" y="7.62"/>

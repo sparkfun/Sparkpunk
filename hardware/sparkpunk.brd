@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -4369,8 +4369,7 @@ design rules under a new name.</description>
 <elements>
 <element name="IC1" library="SparkFun-AnalogIC" package="DIL14-KIT" value="7556" x="25.4" y="46.99" rot="R270">
 <attribute name="VALUE" value="556" x="25.4" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIST" value="digikey" x="25.4" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIST_ID" value="ICM7556IPDZ-ND" x="25.4" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="IC-11898" x="25.4" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="RV3" library="SparkFun-Electromechanical" package="ALPS_POT_KIT" value="10k" x="8.89" y="12.7" rot="R90">
 <attribute name="PROD_ID" value="RES-09177" x="8.89" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4412,19 +4411,19 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-09435" x="38.1" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="100k" x="30.48" y="21.59" rot="R90">
-<attribute name="PROD_ID" value="RES-09498" x="30.48" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="RES-10686" x="30.48" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="100k" x="33.02" y="21.59" rot="R90">
-<attribute name="PROD_ID" value="RES-09498" x="33.02" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="RES-10686" x="33.02" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="100k" x="35.56" y="21.59" rot="R90">
-<attribute name="PROD_ID" value="RES-09498" x="35.56" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="RES-10686" x="35.56" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="100k" x="57.15" y="25.4" rot="R90">
-<attribute name="PROD_ID" value="RES-09498" x="57.15" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="RES-10686" x="57.15" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="100k" x="59.69" y="25.4" rot="R270">
-<attribute name="PROD_ID" value="RES-09498" x="59.69" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="RES-10686" x="59.69" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="10k" x="33.02" y="11.43" rot="R270">
 <attribute name="PROD_ID" value="RES-09435" x="33.02" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4489,6 +4488,7 @@ design rules under a new name.</description>
 <element name="RV1" library="SparkFun-Electromechanical" package="POT_PANASONIC_DUAL_VERT_KIT" value="10k" x="44.45" y="31.75" rot="R270">
 <attribute name="DIST" value="digikey" x="44.45" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIST_ID" value=" P2A5103-ND" x="44.45" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="RES-11897" x="44.45" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="3.81" y="3.81"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="85.09" y="3.81"/>
@@ -4526,8 +4526,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-09184" x="15.24" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="IC2" library="SparkFun-DigitalIC" package="DIL14-KIT" value="CD4013B" x="21.59" y="13.97" rot="R270">
-<attribute name="DIST" value="digikey" x="21.59" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIST_ID" value="296-2033-5-ND" x="21.59" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="IC-11896" x="21.59" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SPARKPUNK_LOGO_.1" value="SPARKPUNK_LOGO.1INCH_TALL" x="33.02" y="2.54"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="24.13" y="-12.7"/>
