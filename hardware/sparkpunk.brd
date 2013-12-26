@@ -4434,6 +4434,7 @@ design rules under a new name.</description>
 <element name="D1" library="SparkFun-DiscreteSemi" package="DIODE-1N4001" value="1n5819" x="82.55" y="21.59" rot="R270">
 <attribute name="DIST" value="sparkfun" x="82.55" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIST_ID" value="COM-10926" x="82.55" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="DIO-11895" x="82.55" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X01NS" value="CV1" x="8.89" y="62.23"/>
 <element name="JP2" library="SparkFun-Connectors" package="1X01NS" value="CV2" x="13.97" y="62.23"/>

@@ -26987,6 +26987,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH" value="1n5819">
 <attribute name="DIST" value="sparkfun"/>
 <attribute name="DIST_ID" value="COM-10926"/>
+<attribute name="PROD_ID" value="DIO-11895"/>
 </part>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -27235,6 +27236,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="D1" gate="G$1" x="353.06" y="106.68">
 <attribute name="DIST" x="353.06" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="DIST_ID" x="353.06" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="PROD_ID" x="353.06" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="1" x="406.4" y="111.76"/>
 <instance part="SUPPLY2" gate="1" x="78.74" y="228.6"/>
