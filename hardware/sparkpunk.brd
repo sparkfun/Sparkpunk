@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,13 +23,13 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -215,6 +215,8 @@
 <wire x1="29.21" y1="68.58" x2="29.21" y2="61.595" width="0.254" layer="21"/>
 <wire x1="29.21" y1="61.595" x2="31.75" y2="61.595" width="0.254" layer="21"/>
 <wire x1="20.32" y1="60.96" x2="20.32" y2="68.58" width="0.254" layer="21"/>
+<text x="44.45" y="1.27" size="1.778" layer="21" font="vector" ratio="15" align="bottom-center">SOUND GENERATOR</text>
+<text x="44.45" y="1.27" size="1.778" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">SOUND GENERATOR</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4516,7 +4518,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CONN-08774" x="85.09" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP14" library="SparkFun-Connectors" package="1X01NS" value="SPK" x="69.85" y="67.31" rot="R90"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="55.88" y="1.27" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="55.88" y="3.81" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="6.35" y="34.29" rot="R90"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="60.325" y="5.715" rot="MR0"/>
 <element name="JP13" library="SparkFun-Connectors" package="1X01NS" value="P4" x="57.15" y="6.985" rot="R180"/>
@@ -4583,7 +4585,7 @@ design rules under a new name.</description>
 <element name="IC2" library="SparkFun-DigitalIC" package="DIL14-KIT" value="CD4013B" x="21.59" y="13.97" rot="R270">
 <attribute name="PROD_ID" value="IC-11896" x="21.59" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="SPARKPUNK_LOGO_.1" value="SPARKPUNK_LOGO.1INCH_TALL" x="33.02" y="2.54"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SPARKPUNK_LOGO_.1" value="SPARKPUNK_LOGO.1INCH_TALL" x="33.655" y="5.08"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="24.13" y="-12.7"/>
 <element name="C5" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".1uf" x="25.4" y="60.96">
 <attribute name="PROD_ID" value="CAP-08370" x="25.4" y="60.96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
